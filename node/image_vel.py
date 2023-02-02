@@ -27,12 +27,8 @@ def move_robot(position):
    
    #have one variable that holds the last position, and over write it every time
    #have an error case where if the position is whack, use the last error case
-   if(error_num<0):
-      move.angular.z = -1.1
-      move.linear.x = 0.2
-   else:
-      move.angular.z = 1.1
-      move.linear.x = 0.2
+   move.angular.z = 0.005*error
+   move.linear.x = 0.1
 
 #was 0.2
 #what i could also do is do like, while it is -1, do an extra sharp turn

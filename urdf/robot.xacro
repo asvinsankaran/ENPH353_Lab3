@@ -221,8 +221,8 @@
     <rightFrontJoint>wheel_FR_joint</rightFrontJoint>
     <leftRearJoint>wheel_RL_joint</leftRearJoint>
     <rightRearJoint>wheel_RR_joint</rightRearJoint>
-    <wheelSeparation>0.4</wheelSeparation>
-    <wheelDiameter>0.215</wheelDiameter>
+    <wheelSeparation>0.18</wheelSeparation>
+    <wheelDiameter>0.08</wheelDiameter>
     <robotBaseFrame>chassis</robotBaseFrame>
     <torque>20</torque>
     <topicName>cmd_vel</topicName>
